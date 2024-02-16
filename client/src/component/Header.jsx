@@ -8,15 +8,15 @@ const Header = () => {
           <h1 className="font-bold">Auth App</h1>
         </Link>
         <ul className="flex gap-4">
-          <link to="/">
+          <Link to="/">
             <li>Home</li>
-          </link>
-          <link to="/about">
+          </Link>
+          <Link to="/about">
             <li>About</li>
-          </link>
-          <link to="/sign-in">
+          </Link>
+          <Link to="/sign-in">
             <li>SignIn</li>
-          </link>
+          </Link>
         </ul>
       </div>
     </div>
